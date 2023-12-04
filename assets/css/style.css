@@ -690,6 +690,11 @@ a.audit-btn:hover {
 }
 
 /*********modified css*******/
+.ca_txt {
+  font-size: 18px;
+  color: #fff;
+  word-break: break-all;
+}
 img.road_img {
   width: 72px;
   display: block;
@@ -722,4 +727,13 @@ img.road_img {
 .partner-member_img {
   width: 269px;
   margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .ca_txt {
+    font-size: 14px;
+    font-family: "poppins";
+    color: #fff;
+    word-break: break-all;
+  }
 }
