@@ -19,16 +19,22 @@ Custom color and background color class palette
 
 /*********font custom*************/
 @font-face {
-  font-family: "Alien Spaceship"; /* Choose a unique name for your font */
-  src: url("/font/AlienSpaceship.otf") format("woff2"),
-    /* Modern Browsers */ url("/font/AlienSpaceship.otf") format("woff");
+  font-family: "Hubot Sans"; /* Choose a unique name for your font */
+  src: url("/fonts/Hubot-Sans-Bold.ttf") format("woff2"),
+    /* Modern Browsers */ url("/fonts/Hubot-Sans-Bold.ttf") format("woff");
 
   /* Older Browsers */ /* You can add more file formats here if needed (e.g., .ttf, .eot) */
 }
-
-body {
-  font-family: "Alien Spaceship", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Hubot Sans";
 }
+/* body {
+  font-family: "Alien Spaceship", sans-serif;
+} */
 @media (min-width: 1024px) {
   body {
     width: 100%;
