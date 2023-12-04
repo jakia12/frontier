@@ -32,6 +32,12 @@ h4,
 h5 {
   font-family: "Hubot Sans";
 }
+
+li,
+p,
+body {
+  font-family: "Fragment";
+}
 /* body {
   font-family: "Alien Spaceship", sans-serif;
 } */
